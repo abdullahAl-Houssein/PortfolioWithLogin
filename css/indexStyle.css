@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* .body{
+    background-image: url(//img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(73, 167, 230, 0.8)50%,rgba(73, 167, 230, 0.8)50%);
+    position: absolute;
+    top: 100px;
+    left: 550px; 
+    bottom: 100px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.back img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: -1rem;
+    border: .7rem solid var(--yellow);
+ }
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: gold;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 8px;
+}
+.email{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid gold;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.password{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid gold;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn1{
+    width: 240px;
+    height: 40px;
+    background: gold;  
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.btn1:hover{
+    background-color: white;
+    color: gold;
+}
+.btn1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.form .link a{
+    text-decoration: none;
+    color: gold;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 5px;
+   
+}
+.icons ion-icon:hover{
+    color: gold;
+}
+@media(max-width: 400px){
+    .box{
+        padding: 75px 25px;
+    }
+    .form{
+        text-align: center;
+        left: 30px; 
+        top: 80px;
+    }
+    .back img{
+        margin-top: -80px;
+        margin-left: -80px;
+        height: 100vh;
+        width: 100vh;
+        object-fit: cover;
+        margin-bottom: -10rem;
+        border: .7rem solid var(--yellow);
+    }
+    
+    .icons ion-icon{
+        color: white;
+        font-size: 30px;
+        margin-left: -15px;
+        padding-top: 5px;
+       
+    }
+}
